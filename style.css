@@ -1,0 +1,79 @@
+style.css
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 18px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn.green {
+  background: green;
+}
+
+.map-section {
+  text-align: center;
+  padding: 30px;
+}
+
+#map {
+  height: 300px;
+  max-width: 700px;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.call-btn {
+  background: black;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.services {
+  text-align: center;
+  padding: 30px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  background: white;
+  margin: 8px auto;
+  padding: 10px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
